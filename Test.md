@@ -12,5 +12,5 @@ And more body text
 
 ```java
 public static void main() {
-    System.out.println(“Some code”);
+    System.out.println("Some code");
 }
