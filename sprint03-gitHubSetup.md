@@ -36,6 +36,6 @@ For open-source repositories it is common for a developer to find a helpful fram
 
 When a developer makes changes or improvements to a forked repository, they might want to contribute those changes back to the main repository they forked from. To do that, they submit a pull request back to the original repository. As part of this pull request, the developer outlines the changes that were made, and the person that receives the requests can compare the proposed changes to the repo by performing a diff, that shows the changes side by side from one another. 
 
-![Figure 1: Repository lifecycle](/diagrams/fig1.png)
+![Figure 1: Repository lifecycle](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/fig1.PNG)
 
 Repositories can vary in complexity from something very simple with a single or a handful of developers, to a large open-source project with tens of thousands of developers. Code repos are the core of how software developers work together on projects of any size.
