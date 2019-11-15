@@ -32,7 +32,7 @@ Flowcharts use different shapes to represent unique types of steps in the progra
 
 ### Terminus
 
-![Terminus](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/terminus.PNG)
+![Terminus](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/terminus.png)
 
 A basic flowchart starts with the pill shape, this is called a terminus shape and is used when you start and end your flowchart. Inside, you write in either “Start” or “Stop” and can optionally define how the program does this in the shape.
 
@@ -40,7 +40,7 @@ Then you draw a line, with an arrow, pointing to the next step in the flowchart.
 
 ### Process / Action
 
-![Process / Action](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/process.PNG)
+![Process / Action](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/process.png)
 
 An action, sometimes called a process, is represented by a simple rectangle. You create a single rectangle for every individual step that needs to be part of your program. We often combine multiple steps in our mind and think of them as a single action. So, something simple might seem like a single step, but it involves multiple actions.
 
@@ -48,13 +48,13 @@ You then create more steps in your flowchart and connect them using lines with a
 
 ### Input and Output
 
-![Input and Output](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/io.PNG)
+![Input and Output](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/io.png)
 
 In your program, you will often need to get input from the user, or display output to them. These steps are represented by a parallelogram to distinguish them from other steps, and you describe it like any other action.
 
 ### Decisions
 
-![Decision](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/decision.PNG)
+![Decision](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/decision.png)
 
 Decisions branch the flow of a program based on the results of a question. The question must be answered with a “Yes” or “No” response. (You’ll find out why later in the class).
 
@@ -74,7 +74,7 @@ There are other shapes for working with data, creating subprocesses, and other a
 
 Let’s take a look at an example flowchart and you can see how this all comes together:
 
-![Taking out the trash](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/flowchart.PNG)
+![Taking out the trash](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/flowchart.png)
 
 The flowchart starts with a terminus, or terminal shape, labeled start.
 
