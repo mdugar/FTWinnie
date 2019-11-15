@@ -34,7 +34,7 @@ First, we need to create the basic structure for our project. To do that, we nee
 
 When you launch IntelliJ for the first time, you will see the welcome screen. You can also open this screen from the **File > Open** menu item.
 
-![IntelliJ Welcome window](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/welcomeWindow.PNG)
+![IntelliJ Welcome window](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/welcomeWindow.png)
 
 From here, we need to create a new project, so select, you guessed it, **"Create New Project"** from the window.
 
@@ -48,12 +48,12 @@ The process is pretty simple:
 
 At the top of the New Project window, click the **"New…"** button:
 
-![New Project window](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/newProject.PNG)
+![New Project window](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/newProject.png)
  
 When you click the **"New…"** button, you need to tell IntelliJ where the JDK is installed. On a Windows machine, it is usually located in the **"Program Files"** folder, on macOS, it is usually in the **"Library"** folder.
 Select the location of the JDK and the main folder of the JDK, and then select **OK**:
 
-![Select JDK folder](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/selectJDK.PNG)
+![Select JDK folder](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/selectJDK.png)
 
 You'll then see the version of the JDK appear at the top of the New Project window.
 
@@ -65,11 +65,11 @@ Click **Next** to continue from the New Project window.
 
 On the next screen, you will configure the project template:
 
-![Project templates](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/projTemplates.PNG)
+![Project templates](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/projTemplates.png)
 
 Check **"Create project from template"** and then select **"Command Line App"**
 
-![Template selections](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/templateSelection.PNG)
+![Template selections](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/templateSelection.png)
 
 Click **Next** to continue.
 
@@ -81,7 +81,7 @@ The third option is for the base package. The default package is called `com.com
 
 When you are done, you should see this: 
 
-![New Project name and location](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/firstView.PNG)
+![New Project name and location](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/firstView.png)
  
 Click **Finish** when you are ready.
 
@@ -100,7 +100,7 @@ The Project panel displays all the files that are in your project. The top level
 You will see other items here as well. The `.idea` folder contains project settings for IntelliJ that help reconfigure the IDE to your previous settings when you open the project again.
 The External Libraries section displays all the Java archive files, or JARs that are part of your project. Remember that the Java JDK includes all the tools for Java in JAR files. If you expand this disclosure triangle, you can see all of them.
  
-![The Project panel](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/projPanel.PNG)
+![The Project panel](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/projPanel.png)
 
 With the initial framework of the project created, we can now write the code for our program and work with our local development environment that we have created in IntelliJ.
 
@@ -136,7 +136,7 @@ When you are finished writing that line of code, the code panel should look like
 
 With the program code complete, we can now compile, build, and run the program right inside of IntelliJ.
 
-![Finished Main.java file](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/finishedMain.PNG)
+![Finished Main.java file](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/finishedMain.png)
  
 ### Compile and Run Your First Program
 
@@ -146,7 +146,7 @@ You will see the program begin to compile and a new panel will open at the botto
 
 Congrats! You have built and run your first Java Program.
 
-![Output of first program](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/firstRun.PNG)
+![Output of first program](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/firstRun.png)
 
 There are some things we should look at in the Project panel however.  You'll see a new folder called `out`. This folder contains the compiled bytecode for your project.
 
@@ -162,7 +162,7 @@ First, open a browser and go to www.github.com. From there, we will create a new
 
 Log into your account and you should see the dashboard, like the one that is shown below:
 
-![GitHub.com Dashboard](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/ghDash.PNG)
+![GitHub.com Dashboard](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/ghDash.png)
 
 From here, click the green **New** button on the left, or click the plus button next to your account gravatar and select **New repository**.
 
@@ -174,7 +174,7 @@ Keep the project Public and check the **Initialize this repository with a README
 
 You can leave all of the other options as is. Your page should look like the one below:
 
-![New repository settings](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/newRepoSettings.PNG)
+![New repository settings](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/newRepoSettings.png)
 
 Click the **Create repository** button at the bottom of the page.
 
@@ -182,7 +182,7 @@ You will now see the repository landing page, and you will see a single file, **
 
 We can edit this file directly in GitHub. Click the pencil icon in the right side of the title bar where the **README.md** section starts.
  
-![Editing README.md](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/editReadme.PNG)
+![Editing README.md](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/editReadme.png)
 
 This is in a special format called Markdown. We will learn more about Markdown later, but for now, you can add more details and notes about your project on this page.
 
@@ -190,13 +190,13 @@ Add this to the bottom of the file **"Serra High School, AP CompSci"**
 
 At the bottom, you can now save this change, or commit it to the repository. Add a summary of the change, and then add an optional description like this:
 
-![Commit change information](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/commitChangeInfo.PNG)
+![Commit change information](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/commitChangeInfo.png)
 
 Then click the **Commit Changes** button at the bottom.
 
 You will now see the changes shown on the page:
 
-![Seeing changes made to README.md](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/readmeChanges.PNG)
+![Seeing changes made to README.md](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/readmeChanges.png)
 
 You have just created your first commit. Commits are changes that you wish to add to your project and track changes over time.
 
@@ -206,7 +206,7 @@ Now that you have your repo created, you can upload your code and keep it online
 
 First, make sure you are at the main landing page for your repo. On this page, click the **Upload Files** button on the page.
 
-![Upload files button](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/uploadFiles.PNG)
+![Upload files button](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/uploadFiles.png)
 
 Now, you can drag and drop files to the area on the page, or click the **choose your files** link and browse using the Explorer or Finder dialog box.
 
@@ -214,13 +214,13 @@ One trick to find your code file is to go back to IntelliJ.
 
 From there, go to your Project panel and right click the code file you want to upload. Select **Show in Explorer** or **Show in Finder** option:
  
-![Show in... Option](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/showIn.PNG)
+![Show in... Option](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/showIn.png)
 
 That will then open a window and display the file. You can now drag and drop that into GitHub in the browser.
 
 You will see the file added to the bottom of the file drop target zone:
 
-![File ready to commit](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/fileReady.PNG)
+![File ready to commit](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/fileReady.png)
 
 Now, we can commit our changes. For the summary, put **"First code commit"** and then for extended description **"Display a statement on the screen"**.
 
@@ -233,13 +233,13 @@ In addition to your code, it is very important that you share the output from yo
 
 To start, create a new file in your repo, call it `output.txt`:
 
-![Creating a text file](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/createTextFile.PNG)
+![Creating a text file](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/createTextFile.png)
 
 From IntelliJ, go to your HelloWorld project and click inside the Run panel. If the panel isn't open, run the program again to display it.
 
 Press Control-A or Command-A to select all, and then copy to the clipboard. Then go back to the new text file in GitHub and paste:
 
-![Pasted output text](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/pasteOuput.PNG)
+![Pasted output text](https://github.com/sfdesigner/FTWinnie/blob/master/diagrams/pasteOuput.png)
 
 Go to the bottom of the page and press the **Commit new file** button.
 
